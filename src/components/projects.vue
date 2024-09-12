@@ -4,7 +4,7 @@
             <h2 class="heading">Projets</h2>
 
             <div class="wrapper">
-                <div class="project-item">
+                <div class="project-item" onclick="redirectToPage()">
                     <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
                     <h2>Projet 1</h2>
                     <div class="rating">
@@ -58,6 +58,11 @@
         </div>
     </section>
 </template>
+
+<script setup>
+   
+    
+</script>
 
 <style>
 .projects{

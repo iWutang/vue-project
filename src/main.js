@@ -1,12 +1,7 @@
-import { createApp } from 'vue';
-import App from './App.vue';
-import router from './routes.js';
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from '@/router/routes'
 
-createApp(navbar)
-.use(router)
-.mount('#navbar')
+createApp(App).use(router).mount('#app')
 
-createApp(App)
-.use(router)
-.mount('#app')
 

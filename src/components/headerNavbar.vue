@@ -1,4 +1,5 @@
-<template class="headers">
+<template>
+    <header class="headers">
         <RouterLink to="/" class="logo">Stéphane
             <span>R</span></RouterLink>
 
@@ -9,38 +10,13 @@
             <RouterLink to="/contact">Contact</RouterLink>
         
         </nav>
+    </header>
     <RouterView />
 </template>
 
 
 <script setup>
-    checkHash(['#home', '#education', '#services',]);
 
-    function checkHash(hashList) {
-  const currentHash = window.location.hash;
-  if (!hashList.includes(currentHash)) {
-    `<div class="container">
-        <h1>Erreur la page est inexistante</h1>
-        <p>Le hash '#' est invalide</p>
-    </div>
-    <style>
-        .container {
-            max-width: 100%;
-            max-height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        h1,
-        p {
-            color: white;
-            border: 3px solid red;
-            font-size: 30px;
-        }
-    </style>`
-        };
-    }
 </script>
 
 <style>
