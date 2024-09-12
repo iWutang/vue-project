@@ -1,15 +1,4 @@
 <template>
-  <header>
-    <headers />
-  </header>
-  <home />
-  <services />
-  <projects />
-  <contact />
-  <RouterView />
-  <footer>
-    <footers />
-  </footer>
   
 </template>
 
@@ -23,6 +12,6 @@ import footers from './footer.vue';
 </script>
 
 <style>
-@import '/src/assets/main.css';
+/* @import '/src/assets/main.css'; */
 
 </style>
