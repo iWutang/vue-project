@@ -2,15 +2,15 @@
   <header>
     <headers />
   </header>
-<main class="container">
   <home />
   <services />
   <projects />
   <contact />
-</main>    
-<footer>
-  <footers />
-</footer>
+  <RouterView />
+  <footer>
+    <footers />
+  </footer>
+  
 </template>
 
 <script setup>

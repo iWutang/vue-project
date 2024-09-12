@@ -1,17 +1,18 @@
 <template>
     <header class="headers">
-        <a href="#" class="logo">Stéphane
-            <span>R</span></a>
+        <RouterLink: to="/" class="logo">Stéphane
+            <span>R</span></RouterLink:>
 
         <nav class="navbar">
-            <a href="#home">Accueil</a>
+            <RouterLink: to="/home">Accueil</RouterLink:>
             <a href="#services">Services</a>
             <a href="#projects">Projets</a>
             <a href="#contact">Contact</a>
-            
-            
+        
         </nav>
+        <RouterView />
     </header>
+    
 </template>
 
 
