@@ -6,23 +6,6 @@
             <a href="https://www.instagram.com"><i class='bx bxl-instagram-alt'></i></a>
             <a href="https://x.com/?lang=fr"><i class='bx bxl-twitter'></i></a>
         </div>
-        <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">A propos</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Projets</a>
-            </li>
-        </ul>
         <p class="copyright">
             © Stéphane R | Tous droits réservé
         </p>
@@ -62,7 +45,7 @@ footer{
     color: black;
     box-shadow: 0 0 25px var(--main-color);
 }
-.footers ul{
+/* .footers ul{
     margin-top: 0;
     padding: 0;
     font-size: 18px;
@@ -81,7 +64,7 @@ footer{
 .footers ul li{
     display: inline-block;
     padding: 0 15px;
-}
+} */
 .footers .copyright{
     margin-top: 15px;
     text-align: center;
