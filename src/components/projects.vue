@@ -4,9 +4,11 @@
             <h2 class="heading">Projets</h2>
 
             <div class="wrapper">
-                <div class="project-item" onclick="redirectToPage()">
-                    <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
-                    <h2>Projet 1</h2>
+                <div class="project-item">
+                    <RouterLink to="`/projet1`">
+                        <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
+                        <h2>Projet 1</h2>
+                    </RouterLink>
                     <div class="rating">
                         <a href=""><i class='bx bxs-star' id="star"></i></a>
                         <a href=""><i class='bx bxs-star' id="star"></i></a>

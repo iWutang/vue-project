@@ -4,14 +4,13 @@
             <span>R</span></RouterLink>
 
         <nav class="navbar">
-            <RouterLink to="/home">Accueil</RouterLink>
-            <RouterLink to="/services">Services</RouterLink>
-            <RouterLink to="/projects">Projets</RouterLink>
-            <RouterLink to="/contact">Contact</RouterLink>
+            <a href="#home">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
         
         </nav>
     </header>
-    <RouterView />
 </template>
 
 
