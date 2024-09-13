@@ -4,58 +4,60 @@
             <h2 class="heading">Projets</h2>
 
             <div class="wrapper">
-                <div class="project-item">
-                    <RouterLink to="`/projet1`">
+                <RouterLink to="/projet1">
+                    <div class="project-item">
                         <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
                         <h2>Projet 1</h2>
-                    </RouterLink>
-                    <div class="rating">
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
+                        <div class="rating">
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quisquam eum perferendis
+                        Quisquam eum perferendis accusamus ipsam,  
+                        illo debitis alias magnam. Quas, repellat 
+                        pariatur!</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Quisquam eum perferendis
-                    Quisquam eum perferendis accusamus ipsam,  
-                    illo debitis alias magnam. Quas, repellat 
-                    pariatur!</p>
-                </div>
-
-                <div class="project-item">
-                    <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
-                    <h2>Projet 2</h2>
-                    <div class="rating">
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
+                </RouterLink>  
+                <RouterLink to="/projet2">
+                    <div class="project-item">
+                        <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
+                        <h2>Projet 2</h2>
+                        <div class="rating">
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quisquam eum perferendis
+                        Quisquam eum perferendis accusamus ipsam,  
+                        illo debitis alias magnam. Quas, repellat 
+                        pariatur!</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Quisquam eum perferendis
-                    Quisquam eum perferendis accusamus ipsam,  
-                    illo debitis alias magnam. Quas, repellat 
-                    pariatur!</p>
-                </div>
-
-                <div class="project-item">
-                    <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
-                    <h2>Projet 3</h2>
-                    <div class="rating">
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
-                        <a href=""><i class='bx bxs-star' id="star"></i></a>
+                </RouterLink>
+                <RouterLink to="/projet3">
+                    <div class="project-item">
+                        <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
+                        <h2>Projet 3</h2>
+                        <div class="rating">
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                            <a href=""><i class='bx bxs-star' id="star"></i></a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Quisquam eum perferendis
+                        Quisquam eum perferendis accusamus ipsam,  
+                        illo debitis alias magnam. Quas, repellat 
+                        pariatur!</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Quisquam eum perferendis
-                    Quisquam eum perferendis accusamus ipsam,  
-                    illo debitis alias magnam. Quas, repellat 
-                    pariatur!</p>
-                </div>
+                </RouterLink>
             </div>
         </div>
     </section>
