@@ -4,13 +4,9 @@
             <h1>Bonjour, moi c'est <span>Stéphane</span></h1>
             <h3 class="text-animation">Je suis <span></span></h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Molestiae numguam
-                dolores dolorem adipisci recusandae, ex
-                nesciunt. Voluptatum voluptates quasi
-                tempora hic facilis veritatis
-                consequuntur doloribus dolor provident,
-                eligendi nam? Modi?
+                Développeur WEb junior, je maitrise un peu le Web design,
+                Je maitrise HTML - CSS - JavaScript et Python
+                J'aime beaucoup automatisé des choses grace à la programmation.
             </p>
             <div class="social-icons">
                 <a href="https://fr.linkedin.com"><i class='bx bxl-linkedin'></i></a>

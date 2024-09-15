@@ -7,7 +7,7 @@
                 <RouterLink to="/projet1">
                     <div class="project-item">
                         <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
-                        <h2>Projet 1</h2>
+                        <h2>Projet CVenLigne</h2>
                         <div class="rating">
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
@@ -15,17 +15,15 @@
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Quisquam eum perferendis
-                        Quisquam eum perferendis accusamus ipsam,  
-                        illo debitis alias magnam. Quas, repellat 
-                        pariatur!</p>
+                        <p>Voici le 1er projet que j'ai éffectuer c'est un CV en ligne <br>
+                        | Cliquez sur l'élément pour en voir plus |
+                        </p>
                     </div>
                 </RouterLink>  
                 <RouterLink to="/projet2">
                     <div class="project-item">
                         <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
-                        <h2>Projet 2</h2>
+                        <h2>Projet CDC</h2>
                         <div class="rating">
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
@@ -33,17 +31,14 @@
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Quisquam eum perferendis
-                        Quisquam eum perferendis accusamus ipsam,  
-                        illo debitis alias magnam. Quas, repellat 
-                        pariatur!</p>
+                        <p>Voici le 2nd projet que j'ai créer un cahier des charges pour une entreprise <br>
+                        | Cliquez sur l'élément pour en voir plus |</p>
                     </div>
                 </RouterLink>
                 <RouterLink to="/projet3">
                     <div class="project-item">
                         <img src="/src/assets/Img/Luffy-gear-5 wlp.jpg" alt="">
-                        <h2>Projet 3</h2>
+                        <h2>Projet Commentaire</h2>
                         <div class="rating">
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
@@ -51,11 +46,8 @@
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                             <a href=""><i class='bx bxs-star' id="star"></i></a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Quisquam eum perferendis
-                        Quisquam eum perferendis accusamus ipsam,  
-                        illo debitis alias magnam. Quas, repellat 
-                        pariatur!</p>
+                        <p>Voici le 1er projet que j'ai dynamiser un espace commentaire <br>
+                        | Cliquez sur l'élément pour en voir plus |</p>
                     </div>
                 </RouterLink>
             </div>

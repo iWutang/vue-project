@@ -6,40 +6,28 @@
             <div class="service-box">
                 <div class="service-info">
                     <h4>UI Design</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Soluta fuga tempora, ratione
-                    perferendis ducimus quae id culpa 
-                    voluptatibus atque nostrum!</p>
+                    <p>Je vous propose de faire l'UI design de votre site</p>
                 </div>
             </div> 
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Frontend Developer</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Soluta fuga tempora, ratione
-                    perferendis ducimus quae id culpa 
-                    voluptatibus atque nostrum!</p>
+                    <p>Je vous propose de créer votre site Web</p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
                     <h4>Backend Developer</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Soluta fuga tempora, ratione
-                    perferendis ducimus quae id culpa 
-                    voluptatibus atque nostrum!</p>
+                    <p>Je vous propose de gérer votre site Web</p>
                 </div>
             </div>
 
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Testing</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Soluta fuga tempora, ratione
-                    perferendis ducimus quae id culpa 
-                    voluptatibus atque nostrum!</p>
+                    <h4>BOT Créateur</h4>
+                    <p>Je vous propose de créer votre bot pour des reseaux sociaux comme discord par exemple</p>
                 </div>
             </div> 
         </div>
