@@ -5,22 +5,29 @@
         <form action="">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Nom complet">
-                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Nom complet" id="fullName">
+                    <input type="email" placeholder="Email" id="email">
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="N° de téléphone">
-                    <input type="text" placeholder="Motif">
+                    <input type="number" placeholder="N° de téléphone" id="phone">
+                    <input type="text" placeholder="Motif" id="motif">
                 </div>
             </div>
 
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Votre Message"></textarea>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Votre Message"></textarea>
                 <input type="submit" value="Envoyez" class="btn">
             </div>
         </form>
     </section>
 </template>
+
+<script setup>
+
+</script>
+
+
+
 
 
 <style>

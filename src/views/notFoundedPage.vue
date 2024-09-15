@@ -1,10 +1,11 @@
 <template>
     <section class="notFound">
         <div class="notF-box">
-            <h1 class="MainTitle">PAGE NOT FOUND</h1>
+            <h1 class="MainTitle">ERROR 404: PAGE NOT FOUND</h1>
             <div class="position">
                 <div class="notF-item">
-                    <p>The page that you search isn't exist or isn't founded
+                    <p>
+                    The page that you search isn't exist or isn't founded
                     go back to <RouterLink to="/">HOME</RouterLink>
                     </p>
                 </div>
@@ -40,9 +41,9 @@
 .notF-item{
     min-height: 550px;
     max-width: 1000px;
-    background: rgba(0, 0, 0, 0.7);
+    /* background: rgba(0, 0, 0, 0.7);
     border: 3px solid rgba(238, 238, 238, 0.3);
-    border-radius: 2rem;
+    border-radius: 2rem; */
     margin: 0 2rem;
     padding: 30px 60px;
     cursor: pointer;

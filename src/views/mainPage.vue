@@ -11,6 +11,7 @@ import Projects from '@/components/projects.vue';
 import services from '@/components/services.vue';
 import Contact from '@/components/contact.vue';
 
+
 import { computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
@@ -25,6 +26,7 @@ const search = computed({
         router.replace({ query: {search} })
     }
 })
+
 </script>
 
 <style>
