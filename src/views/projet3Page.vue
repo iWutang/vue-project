@@ -3,41 +3,24 @@
         <h2 class="heading">Projet 3</h2>
 
         <div class="projet-container">
-            <div class="sneakpeak-box">
-                <div class="projet3-info">
-                    <h4>Partie HTML</h4>
-                    <p>image</p>
-                </div>
-            </div> 
-
-            <div class="sneakpeak-box">
-                <div class="projet3-info">
-                    <h4>Partie CSS</h4>
-                    <p>image</p>
-                </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCommentaire1.png" alt="">
             </div>
-
-            <div class="sneakpeak-box">
-                <div class="projet3-info">
-                    <h4>Partie JavaScript</h4>
-                    <p>image</p>
-                </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCommentaire2.png" alt="">
             </div>
-
-            <div class="sneakpeak-box">
-                <div class="projet3-info">
-                    <h4>Rendu Final</h4>
-                    <p>image</p>
-                </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCommentaire3.png" alt="">
+            </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCommentaire1.png" alt="">
             </div>
         </div>
         <article>
             <div class="sneakpeak-box">
                 <div class="projet3-info">
                     <h4>Description du projet</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint incidunt unde harum distinctio quasi,
-                    facilis soluta officia ipsam ratione, rem blanditiis porro doloremque eaque, nihil molestiae nesciunt 
-                    reiciendis dolores dignissimos.</p>
+                    <p>Voici donc l'espace commentaire dynamique que j'ai crée, ci joint le lien du projet pour voir le code source : <a href="https://github.com/iWutang/Commentaires_Devoir1">Lien github</a></p>
                 </div>
             </div>
         </article>

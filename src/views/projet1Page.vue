@@ -3,7 +3,7 @@
         <h2 class="heading">Projet 1</h2>
 
         <div class="projet-container">
-            <div class="sneakpeak-box">
+            <!-- <div class="sneakpeak-box">
                 <div class="projet1-info">
                     <h4>Partie HTML</h4>
                     <p>image</p>
@@ -22,22 +22,20 @@
                     <h4>Partie JavaScript</h4>
                     <p>image</p>
                 </div>
-            </div>
-
-            <div class="sneakpeak-box">
+            </div> -->
+            <img src="../assets/Img/Capture d'écran 2024-09-16 142651.png" alt="Rendu Final CV">
+            <!-- <div class="sneakpeak-box">
                 <div class="projet1-info">
                     <h4>Rendu Final</h4>
-                    <p>image</p>
+                    <img src="../assets/Img/Capture d'écran 2024-09-16 142651.png" alt="Rendu Final CV">
                 </div>
-            </div>
+            </div> -->
         </div>
         <article>
             <div class="sneakpeak-box">
                 <div class="projet1-info">
                     <h4>Description du projet</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint incidunt unde harum distinctio quasi,
-                    facilis soluta officia ipsam ratione, rem blanditiis porro doloremque eaque, nihil molestiae nesciunt 
-                    reiciendis dolores dignissimos.</p>
+                    <p>Voici donc le CV en ligne que j'ai crée, ci joint le lien du projet pour voir le code source : <a href="https://github.com/iWutang/CVenLigne3">Lien github</a></p>
                 </div>
             </div>
         </article>
@@ -54,14 +52,14 @@
     color: white;
 }
 .projet-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    gap: 2.5rem;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    /* gap: 2.5rem; */
 }
 .sneakpeak-box{
     background-color: var(--main-color);
-    height: 300px;
+    height: 600px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -72,6 +70,9 @@
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
+}
+.projet-container img{
+    align-items: center;
 }
 .sneakpeak-box .service-info{
     display: flex;

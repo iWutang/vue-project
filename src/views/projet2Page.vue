@@ -3,41 +3,26 @@
         <h2 class="heading">Projet 2</h2>
 
         <div class="projet-container">
-            <div class="sneakpeak-box">
-                <div class="projet2-info">
-                    <h4>Partie HTML</h4>
-                    <p>image</p>
-                </div>
-            </div> 
-
-            <div class="sneakpeak-box">
-                <div class="projet2-info">
-                    <h4>Partie CSS</h4>
-                    <p>image</p>
-                </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCDC1.png" alt="">
             </div>
-
-            <div class="sneakpeak-box">
-                <div class="projet2-info">
-                    <h4>Partie JavaScript</h4>
-                    <p>image</p>
-                </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCDC2.png" alt="">
             </div>
-
-            <div class="sneakpeak-box">
-                <div class="projet2-info">
-                    <h4>Rendu Final</h4>
-                    <p>image</p>
-                </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCDC3.png" alt="">
+            </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCDC4.png" alt="">
+            </div>
+            <div class="img-box">
+                <img src="../assets/Img/imageCDC5.png" alt="">
             </div>
         </div>
         <article>
             <div class="sneakpeak-box">
                 <div class="projet2-info">
-                    <h4>Description du projet</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint incidunt unde harum distinctio quasi,
-                    facilis soluta officia ipsam ratione, rem blanditiis porro doloremque eaque, nihil molestiae nesciunt 
-                    reiciendis dolores dignissimos.</p>
+                    <h4>Voici un apercus de cahier des charges que j'ai pu effectuer pour l'entreprise "La Socketterie"</h4>
                 </div>
             </div>
         </article>
@@ -59,6 +44,10 @@
     align-items: center;
     gap: 2.5rem;
 }
+.img-box img{
+    height: 500px;
+    width: 600px;
+}
 .sneakpeak-box{
     background-color: var(--main-color);
     height: 300px;
@@ -73,7 +62,7 @@
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
-.sneakpeak-box .service-info{
+/* .sneakpeak-box .service-info{
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -81,23 +70,23 @@
     justify-content: left;
     align-items: baseline;
     padding: 5rem 5rem;
-}
+} */
 .projet2-info h4{
     font-size: 3rem;
     font-weight: 800;
     line-height: 2;
 }
-.projet2-info p{
-    font-size: 1.6rem;
-    font-weight: 600;
-    max-height: 100px;
-    line-height: 1.7;
+.projet2-info img{
+    font-size: 2.5rem;
+    font-weight: 800;
+    max-height: 300px;
+    line-height: 2;
     margin: auto;
 }
 article{
     margin-top: 5rem;
 }
-.sneakpeak-boX{
+/* .sneakpeak-boX{
     background-color: var(--main-color);
     height: 300px;
     margin-top: 5rem;
@@ -111,6 +100,6 @@ article{
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
-}
+} */
 
 </style>
