@@ -13,7 +13,7 @@
                 <img src="../assets/Img/imageCommentaire3.png" alt="">
             </div>
             <div class="img-box">
-                <img src="../assets/Img/imageCommentaire1.png" alt="">
+                <img src="../assets/Img/imageCommentaire4.png" alt="">
             </div>
         </div>
         <article>
